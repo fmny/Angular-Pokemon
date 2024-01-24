@@ -11,6 +11,8 @@ import { PokemonFormComponent } from './pokemon-form/pokemon-form.component';
 import { SizePictureDirective } from './size-picture.directive';
 import { EditPokemonComponent } from './edit-pokemon/edit-pokemon.component';
 import { AddPokemonComponent } from './add-pokemon/add-pokemon.component';
+import { SearchPokemonComponent } from './search-pokemon/search-pokemon.component';
+import { LoaderComponent } from './loader/loader.component';
 
 
 const pokemonRoutes: Routes = [
@@ -29,7 +31,9 @@ const pokemonRoutes: Routes = [
     PokemonFormComponent,
     SizePictureDirective,
     EditPokemonComponent,
-    AddPokemonComponent
+    AddPokemonComponent,
+    SearchPokemonComponent,
+    LoaderComponent
   ],
   imports: [
     CommonModule,
